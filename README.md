@@ -1,1 +1,1 @@
-# Gerencia-de-configura-o
+# Gerencia-de-configuração
