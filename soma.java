@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Soma {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.print("Digite o primeiro número: ");
         double numero1 = scanner.nextDouble();
 
