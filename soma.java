@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Soma {
+public class SomaTresNumeros {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,9 +10,12 @@ public class Soma {
         System.out.print("Digite o segundo número: ");
         double numero2 = scanner.nextDouble();
 
-        double resultado = numero1 + numero2;
+        System.out.print("Digite o terceiro número: ");
+        double numero3 = scanner.nextDouble();
 
-        System.out.println("\nResultado: " + numero1 + " + " + numero2 + " = " + resultado);
+        double resultado = numero1 + numero2 + numero3;
+
+        System.out.println("\nResultado: " + numero1 + " + " + numero2 + " + " + numero3 + " = " + resultado);
 
         scanner.close();
     }
